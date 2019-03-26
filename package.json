@@ -1,0 +1,17 @@
+{
+  "name": "experiment-typescript",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "git@github.com:Zacaria/experiment-typescript.git",
+  "author": "Zacaria <z@havesomecode.io>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "start": "yarn build & yarn serve",
+    "serve": "live-server public",
+    "build": "tsc src/index.ts --outDir public -w"
+  },
+  "dependencies": {
+    "live-server": "1.2.1",
+    "typescript": "3.3.4000"
+  }
+}

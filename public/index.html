@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Here's the experiment</h1>
+    <div>
+        We have a __THE_GLOBAL__ object which holds an id.
+
+        <br>
+        <br>
+
+        We want to get this id, and let's say, put it in a string.
+    </div>
+    <div>
+        <h2>1 : Run the Typescript</h2>
+        <button id="run">Run</button>
+
+        <div>
+            <h3>Output</h3>
+            <p id="output"></p>
+        </div>
+    </div>
+    <div>
+        <h2> 2: Change the global value and run again</h2>
+        <p>
+            Initial value : __THE_GOBAL__ = {"id": 42}
+        </p>
+        <p>
+            Current value : __THE_GOBAL__ = <span id="current"></span>
+        </p>
+
+        <hr>
+        <strong>Mutate __THE_GOBAL__ to : </strong>
+        <button id="string">a string</button>&nbsp;&nbsp;
+        <button id="number">a number</button>&nbsp;&nbsp;
+        <button id="object">another object</button>&nbsp;&nbsp;
+        <button id="reset"> the original value</button>
+    </div>
+
+    <script src="./globalApi.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
