@@ -1,3 +1,7 @@
+# ⚠️ Warning ⚠️
+
+The following is a demonstration of a 100% biased opinion. Possible traces of sarcasm and resentment.
+
 # Readme
 
 Does Typescript protect you against runtime errors ?
